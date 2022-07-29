@@ -1,0 +1,96 @@
+body {
+  background-color: #fcfafa;
+  font-family: Arial, sans-serif;
+  min-width: 290px;
+}
+
+header {
+  font-weight: thin;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-left: px;
+}
+
+#navbar header {
+  margin-top: 0px;
+  padding: 20px 0 10px 10px;
+
+}
+
+#main-doc {
+  color: #26252B;
+  line-height: 1.5;
+}
+
+#navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  border-right: 3px solid #26252B;
+  min-width: 330px;
+}
+
+#navbar ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+#navbar li {
+  border-top: 1px solid #26252B;
+}
+
+.nav-link {
+  color: #26252B;
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+  padding: 15px 0 15px 0px;
+  width: 305px;
+  margin-left: 10px;
+}
+
+.nav-link:hover {
+  transition: 0.1s;
+  font-weight: bold;
+}
+
+p {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+code {
+  background-color: #EDE6E8;
+  padding: 15px;
+  margin:10px 55px 10px 25px;
+  display: block;
+  border-radius: 0.2rem;
+  line-height: 2;
+}
+
+.main-section {
+margin-left: 350px;
+}
+
+.main-section > ul {
+list-style-position: outside;
+margin-left: 45px;
+}
+
+.main-section > ul > li {
+  margin-top: 10px;
+}
+
+@media (max-width: 700px) {
+  #navbar {
+    min-width: 230px;
+  }
+  .nav-link {
+    width: 200px;
+  }
+
+  .main-section {
+    margin-left: 250px;
+  }
+}
