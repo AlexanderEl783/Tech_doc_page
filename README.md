@@ -1,3 +1,3 @@
 # Tech_doc_page
-This is a page created while learning HTML and CSS!
+This is a page I created while learning HTML and CSS!
 :tada:
