@@ -2,6 +2,8 @@ body {
   background-color: #fcfafa;
   font-family: Arial, sans-serif;
   min-width: 290px;
+  padding: 0;
+  margin: 0;
 }
 
 header {
@@ -71,6 +73,7 @@ code {
 
 .main-section {
 margin-left: 350px;
+font-size: 16px;
 }
 
 .main-section > ul {
@@ -82,15 +85,29 @@ margin-left: 45px;
   margin-top: 10px;
 }
 
-@media (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   #navbar {
-    min-width: 230px;
+    min-width: 100px;
+    font-size: 14px;
   }
+
+  #navbar header {
+    font-size: 16px;
+    padding: 0 3px;
+  }
+
   .nav-link {
-    width: 200px;
+    width: 100px;
+    font-size: 14px;
   }
 
   .main-section {
     margin-left: 250px;
+    font-size: 14px;
+    margin-left: 150px;
+  }
+
+  .main-section > ul > li {
+    margin-top: 5px;
   }
 }
